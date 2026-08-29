@@ -64,3 +64,30 @@ header .header-right .btn {
 header .header-right .btn:active {
     transform: scale(0.9);
 }
+header .header-right .yurak:active {
+    color: red;
+}
+header .header-right .yurak:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.serach-katta {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+} 
+.serach-katta .serach-kichik {
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.serach-katta .serach-kichik input {
+    width: 350px;
+    height: 40px;
+    padding: 0 15px;
+}
