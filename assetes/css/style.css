@@ -12,6 +12,7 @@ header {
     display: flex;
     align-items: center;
     padding: 20px;
+    justify-content: space-between;
 }
 header .header-left {
     width: 220px;
@@ -28,7 +29,7 @@ header .header-left img {
 }
 /* * header-orta */
 header .header-orta {
-    width: 490px;
+    width: 590px;
     height: 50px;
     border: 1px solid black;
     display: flex;
@@ -44,4 +45,22 @@ header .header-right {
     width: 200px;
     height: 50px;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header-right button {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+header .header-right .btn {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+}
+header .header-right .btn:active {
+    transform: scale(0.9);
 }
