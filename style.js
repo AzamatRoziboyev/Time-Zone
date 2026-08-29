@@ -4,7 +4,7 @@ const serachKatta =document.querySelector('.serach-katta')
 // *login
 const login = document.querySelector('.login')
 const loginKatta = document.querySelector('.login-katta')
-const loginClose = document.querySelector('.login.close')
+const loginClose = document.querySelector('.login-close')
 
 serach.addEventListener("click", () => {
     serachKatta.classList.add("active")
