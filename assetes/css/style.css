@@ -148,6 +148,9 @@ header .header-right .yurak:hover {
     justify-content: end;
 
 }
+.login-katta.active{
+    display: flex;
+}
 .login-katta .login-kichik {
     width: 300px;
     height: 320px;
