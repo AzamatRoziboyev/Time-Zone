@@ -342,6 +342,8 @@ header .header-right .yurak:hover {
     margin: 30px auto;
     display: flex;
     justify-content: space-between;
+    overflow: scroll;
+    gap: 25px;
 }
 .main3 .main3-box {
     width: 280px;
