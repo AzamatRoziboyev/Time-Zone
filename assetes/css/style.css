@@ -326,7 +326,6 @@ header .header-right .yurak:hover {
     align-items: center;
     margin: auto;
     padding: 10px;
-    border: 1px solid black;
 }
 .main2 h3 {
     font-size: 35px;
@@ -338,9 +337,8 @@ header .header-right .yurak:hover {
 }
 /* * ===== main3 */
 .main3 {
-    width: 1480px;
+    width: 1490px;
     height: 460px;
-    border: 1px solid black;
     margin: 30px auto;
     display: flex;
     justify-content: space-between;
@@ -350,6 +348,7 @@ header .header-right .yurak:hover {
     height: 460px;
     padding: 5px;
     background-color: #F4F2F0;
+    border-radius: 12px;
 }
 .main3 .main3-box img {
     width: 270px;
