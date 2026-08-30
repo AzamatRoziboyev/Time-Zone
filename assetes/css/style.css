@@ -389,3 +389,39 @@ header .header-right .yurak:hover {
     margin-top: 15px;
     margin-left: 10px;
 }
+/* *==== main4 */
+.main4 {
+    width: 1490px;
+    height: 300px;
+    border:  1px solid black;
+    margin:  70px auto;
+}
+.main4 .main4-box {
+    width: 720px;
+    height: 300px;
+    border-radius: 12px;
+    background-image: url(/assetes/img/sat2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
+}
+.main4 .main4-box h4 {
+    font-size: 40px;
+
+}
+.main4 .main4-box p {
+    font-size: 25px;
+}
+.main4 .main4-box .main4-btn {
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
