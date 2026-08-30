@@ -338,16 +338,18 @@ header .header-right .yurak:hover {
 }
 /* * ===== main3 */
 .main3 {
-    width: 1400px;
-    height: 500px;
+    width: 1480px;
+    height: 460px;
     border: 1px solid black;
     margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
 }
 .main3 .main3-box {
     width: 280px;
     height: 460px;
-    border: 1px solid red;
-     padding: 5px;
+    padding: 5px;
+    background-color: #F4F2F0;
 }
 .main3 .main3-box img {
     width: 270px;
@@ -356,7 +358,6 @@ header .header-right .yurak:hover {
 .main3 .main3-box .main3-foter {
     width: 200px;
     height: 100px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
