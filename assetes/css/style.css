@@ -600,3 +600,19 @@ footer .footer-button {
     align-items: center;
     font-size: 20px;
 }
+body.dark {
+    background-color: black;
+}
+body.dark header {
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+body.dark header .header-orta a{
+    color: white;
+}
+body.dark header .header-right i {
+    color: white;
+}
+body.dark footer{
+    background-color: blue;
+}
