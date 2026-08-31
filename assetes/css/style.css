@@ -222,8 +222,19 @@ header .header-right .yurak:hover {
     gap: 15px;
     padding: 5px;
 } 
-.main-katolog .main-kichik h1 {
-    text-align: center;
+.main-katolog .main-kichik .h1 {
+    width: 270px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-katolog .main-kichik .h1 .main-close {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
 }
 .main-katolog .main-kichik p {
     font-size: 20px;

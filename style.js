@@ -7,6 +7,10 @@ const loginKatta = document.querySelector('.login-katta')
 const loginClose = document.querySelector('.login-close')
 // * btn
 const btn = document.getElementById('btn')
+// * main-btn
+const mainBtn = document.querySelector(".main-btn")
+const mainKatolog = document.querySelector(".main-katolog")
+const mainClose = document.querySelector(".main-close")
 
 serach.addEventListener("click", () => {
     serachKatta.classList.add("active")
@@ -31,4 +35,11 @@ btn.addEventListener("click", () => {
     else {
         btn.textContent = "☀️"
     }
+})
+// * main-katolog
+mainBtn.addEventListener("click", () => {
+    mainKatolog.classList.add("active")
+})
+mainClose.addEventListener("click", () => {
+    mainKatolog.classList.remove("active")
 })
