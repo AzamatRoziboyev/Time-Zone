@@ -5,6 +5,7 @@
     transition: 1s;
 
 }
+
 header {
     width: 100%;
     height: 100px;
@@ -14,6 +15,7 @@ header {
     justify-content: space-between;
     box-shadow: 1px 1px 10px gray;
 }
+
 header .header-left {
     width: 220px;
     height: 70px;
@@ -22,10 +24,12 @@ header .header-left {
     align-items: center;
 
 }
+
 header .header-left img {
     width: 50px;
     height: 80px;
 }
+
 /* * header-orta */
 header .header-orta {
     width: 590px;
@@ -35,10 +39,12 @@ header .header-orta {
     align-items: center;
     font-size: 20px;
 }
+
 header .header-orta a {
     color: black;
     text-decoration: none;
 }
+
 header .header-right {
     width: 200px;
     height: 50px;
@@ -46,6 +52,7 @@ header .header-right {
     justify-content: space-between;
     align-items: center;
 }
+
 header .header-right button {
     width: 30px;
     height: 30px;
@@ -53,21 +60,26 @@ header .header-right button {
     background-color: transparent;
     border: none;
 }
+
 header .header-right .btn {
     font-size: 26px;
     display: flex;
     align-items: center;
 }
+
 header .header-right .btn:active {
     transform: scale(0.9);
 }
+
 header .header-right .yurak:active {
     color: red;
 }
+
 header .header-right .yurak:hover {
     transform: scale(1.2);
     cursor: pointer;
 }
+
 .serach-katta {
     width: 100%;
     height: 100vh;
@@ -76,10 +88,12 @@ header .header-right .yurak:hover {
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
     justify-content: center;
-} 
+}
+
 .serach-katta.active {
     display: flex;
 }
+
 .serach-katta .serach-kichik {
     width: 500px;
     height: 400px;
@@ -92,6 +106,7 @@ header .header-right .yurak:hover {
     margin-top: 30px;
     border-radius: 12px;
 }
+
 .serach-katta .serach-kichik .input {
     width: 500px;
     height: 50px;
@@ -99,8 +114,9 @@ header .header-right .yurak:hover {
     justify-content: center;
     align-items: center;
     gap: 37px;
-    
+
 }
+
 .serach-katta .serach-kichik .input .input-close {
     width: 30px;
     height: 30px;
@@ -108,8 +124,9 @@ header .header-right .yurak:hover {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    
+
 }
+
 .serach-katta .serach-kichik .div {
     width: 500px;
     height: 300px;
@@ -117,23 +134,26 @@ header .header-right .yurak:hover {
     flex-direction: column;
     gap: 10px;
 }
+
 .serach-katta .serach-kichik .div1 {
     width: 500px;
     height: 30px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     font-size: 20px;
     padding: 5px;
     cursor: pointer;
-    
+
 }
+
 .serach-katta .serach-kichik input {
     width: 350px;
     height: 40px;
     padding: 0 15px;
     font-size: 15px;
 }
+
 /* * login active */
 .login-katta {
     width: 100%;
@@ -143,11 +163,13 @@ header .header-right .yurak:hover {
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
     justify-content: end;
-    
+
 }
-.login-katta.active{
+
+.login-katta.active {
     display: flex;
 }
+
 .login-katta .login-kichik {
     width: 300px;
     height: 320px;
@@ -160,6 +182,7 @@ header .header-right .yurak:hover {
     margin-right: 150px;
     margin-top: 60px;
 }
+
 .login-katta .login-kichik .lable1,
 .login-katta .login-kichik .lable2,
 .login-katta .login-kichik .lable3 {
@@ -168,16 +191,18 @@ header .header-right .yurak:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    
+
+
 }
-.login-katta .login-kichik  .lable1 input,
-.login-katta .login-kichik  .lable2 input,
-.login-katta .login-kichik  .lable3 input {
+
+.login-katta .login-kichik .lable1 input,
+.login-katta .login-kichik .lable2 input,
+.login-katta .login-kichik .lable3 input {
     width: 250px;
     height: 30px;
     padding: 0 10px;
 }
+
 .login-katta .login-kichik .login-close {
     width: 250px;
     height: 30px;
@@ -186,19 +211,21 @@ header .header-right .yurak:hover {
     border: none;
     border-radius: 5px;
     font-size: 15px;
-} 
+}
+
 /* * main */
 .main {
     width: 100%;
-    height: 700px ;
+    height: 700px;
     background-image: url(/assetes/img/saotmani.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: start;
-    
+
 }
+
 .main-katolog {
     width: 100%;
     height: 100vh;
@@ -209,19 +236,22 @@ header .header-right .yurak:hover {
     justify-content: center;
     align-items: center;
 }
+
 .main-katolog.active {
     display: flex;
 }
-.main-katolog .main-kichik {    
+
+.main-katolog .main-kichik {
     width: 300px;
     height: 270px;
-    background-color:  white;
+    background-color: white;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 5px;
-} 
+}
+
 .main-katolog .main-kichik .h1 {
     width: 270px;
     height: 40px;
@@ -229,6 +259,7 @@ header .header-right .yurak:hover {
     justify-content: space-between;
     align-items: center;
 }
+
 .main-katolog .main-kichik .h1 .main-close {
     width: 40px;
     height: 40px;
@@ -236,9 +267,11 @@ header .header-right .yurak:hover {
     background-color: transparent;
     font-size: 20px;
 }
+
 .main-katolog .main-kichik p {
     font-size: 20px;
 }
+
 .main-box {
     width: 500px;
     height: 350px;
@@ -249,12 +282,15 @@ header .header-right .yurak:hover {
     margin: 80px;
 
 }
+
 .main .main-box h1 {
     font-size: 55px;
 }
+
 .main .main-box small {
     font-size: 15px;
 }
+
 .main .main-box .main-btn {
     width: 200px;
     height: 30px;
@@ -264,6 +300,7 @@ header .header-right .yurak:hover {
     border-radius: 4px;
     cursor: pointer;
 }
+
 .main .main-box .main-foter {
     width: 500px;
     height: 80px;
@@ -272,6 +309,7 @@ header .header-right .yurak:hover {
     align-items: center;
 
 }
+
 .main .main-box .main-foter .foter1 {
     width: 170px;
     height: 50px;
@@ -280,10 +318,12 @@ header .header-right .yurak:hover {
     align-items: center;
     padding: 5px;
 }
+
 .main .main-box .main-foter .foter1 i {
     color: chocolate;
     font-size: 25px;
 }
+
 .main .main-box .main-foter .foter2 {
     width: 100px;
     height: 50px;
@@ -292,10 +332,12 @@ header .header-right .yurak:hover {
     align-items: center;
     padding: 5px;
 }
+
 .main .main-box .main-foter .foter2 i {
     color: chocolate;
     font-size: 25px;
 }
+
 .main .main-box .main-foter .foter3 {
     width: 190px;
     height: 50px;
@@ -304,10 +346,12 @@ header .header-right .yurak:hover {
     align-items: center;
     padding: 5px;
 }
+
 .main .main-box .main-foter .foter3 i {
     color: chocolate;
     font-size: 25px;
 }
+
 /* *=======main1 */
 .main1 {
     width: 1400px;
@@ -320,6 +364,7 @@ header .header-right .yurak:hover {
     background-color: rgb(212, 206, 197);
     border-radius: 12px;
 }
+
 .main1 .main1-box {
     width: 350px;
     height: 100px;
@@ -329,14 +374,17 @@ header .header-right .yurak:hover {
     border-right: 1px solid gray;
     padding: 5px;
 }
+
 .main1 .main1-box img {
     width: 60px;
     height: 100px;
 }
+
 .main1 .main1-box .img1 {
     width: 100px;
     height: 70px;
 }
+
 .main1 .main1-box .erkaklar-uchun {
     width: 180px;
     height: 50px;
@@ -344,19 +392,23 @@ header .header-right .yurak:hover {
     justify-content: space-between;
     flex-direction: column;
 }
+
 .main1 .main1-box .erkaklar-uchun p {
     font-size: 20px;
 }
+
 .main1 .main1-box .erkaklar-uchun small {
     color: gray;
     font-size: 15px;
 }
-.main1 .main1-box  .i {
+
+.main1 .main1-box .i {
     width: 20px;
     height: 50px;
     display: flex;
     align-items: end;
 }
+
 /* *==== main2 */
 .main2 {
     width: 1400px;
@@ -367,14 +419,17 @@ header .header-right .yurak:hover {
     margin: auto;
     padding: 10px;
 }
+
 .main2 h3 {
     font-size: 35px;
 }
+
 .main2 a {
     color: black;
     text-decoration: none;
     font-size: 18px;
 }
+
 /* * ===== main3 */
 .main3 {
     width: 1490px;
@@ -385,6 +440,7 @@ header .header-right .yurak:hover {
     overflow: scroll;
     gap: 25px;
 }
+
 .main3 .main3-box {
     width: 280px;
     height: 460px;
@@ -392,10 +448,12 @@ header .header-right .yurak:hover {
     background-color: #F4F2F0;
     border-radius: 12px;
 }
+
 .main3 .main3-box img {
     width: 270px;
     height: 300px;
 }
+
 .main3 .main3-box .main3-foter {
     width: 200px;
     height: 100px;
@@ -404,6 +462,7 @@ header .header-right .yurak:hover {
     justify-content: space-between;
     margin-left: 10px;
 }
+
 .main3 .main3-box .main3-foter span {
     width: 50px;
     height: 20px;
@@ -414,11 +473,13 @@ header .header-right .yurak:hover {
     align-items: center;
     justify-content: center;
 }
+
 .main3 .main3-box .main3-foter p {
     font-size: 20px;
     font-weight: 300;
 
 }
+
 .main3 .main3-box .main3-buyurtma {
     width: 150px;
     height: 30px;
@@ -429,14 +490,16 @@ header .header-right .yurak:hover {
     margin-top: 15px;
     margin-left: 10px;
 }
+
 /* *==== main4 */
 .main4 {
     width: 1490px;
     height: 300px;
-    margin:  70px auto;
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
 }
+
 .main4 .main4-box {
     width: 720px;
     height: 300px;
@@ -451,13 +514,16 @@ header .header-right .yurak:hover {
     gap: 20px;
     padding: 35px;
 }
+
 .main4 .main4-box h4 {
     font-size: 40px;
 
 }
+
 .main4 .main4-box p {
     font-size: 25px;
 }
+
 .main4 .main4-box .main4-btn {
     width: 120px;
     height: 30px;
@@ -466,10 +532,12 @@ header .header-right .yurak:hover {
     background-color: white;
     border-radius: 5px;
 }
+
 .main4 .main4-box .main4-btn a {
     color: black;
     text-decoration: none;
 }
+
 .main4 .main4-box1 {
     width: 720px;
     height: 300px;
@@ -484,12 +552,15 @@ header .header-right .yurak:hover {
     background-position: center;
 
 }
+
 .main4 .main4-box1 h5 {
     font-size: 40px;
 }
+
 .main4 .main4-box1 p {
     font-size: 25px;
 }
+
 .main4 .main4-box1 .main4-btn1 {
     width: 200px;
     height: 30px;
@@ -498,10 +569,12 @@ header .header-right .yurak:hover {
     font-size: 15px;
     border-radius: 5px;
 }
+
 .main4 .main4-box1 .main4-btn1 a {
     color: black;
     text-decoration: none;
 }
+
 /* * main5 */
 .main5 {
     width: 1490px;
@@ -514,6 +587,7 @@ header .header-right .yurak:hover {
     align-items: center;
     background-color: #F4F2F0;
 }
+
 .main5 .main5-box {
     width: 300px;
     height: 70px;
@@ -521,9 +595,11 @@ header .header-right .yurak:hover {
     align-items: center;
     gap: 35px;
 }
+
 .main5 .main5-box i {
     font-size: 35px;
 }
+
 .main5 .main5-box .main5-foter {
     width: 270px;
     height: 70px;
@@ -532,13 +608,16 @@ header .header-right .yurak:hover {
     gap: 5px;
     justify-content: center;
 }
+
 .main5 .main5-box .main5-foter p {
     font-size: 25px;
 }
+
 .main5 .main5-box .main5-foter small {
     color: gray;
     font-size: 15px;
 }
+
 /* * FOOTER */
 footer {
     width: 100%;
@@ -549,6 +628,7 @@ footer {
     flex-direction: column;
     gap: 15px;
 }
+
 footer .footer-k {
     width: 1490px;
     height: 300px;
@@ -558,6 +638,7 @@ footer .footer-k {
     align-items: end;
 
 }
+
 footer .footer-box {
     width: 250px;
     height: 250px;
@@ -565,6 +646,7 @@ footer .footer-box {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .footer-box .time {
     width: 250px;
     height: 70px;
@@ -572,11 +654,13 @@ footer .footer-box .time {
     gap: 15px;
     align-items: center;
 }
+
 footer .footer-box .time img {
     width: 50px;
     height: 70px;
 
 }
+
 footer .footer-box .time .time-right {
     width: 200px;
     height: 70px;
@@ -585,15 +669,19 @@ footer .footer-box .time .time-right {
     justify-content: center;
     gap: 5px;
 }
+
 footer .footer-box .time .time-right h6 {
     font-size: 25px;
 }
+
 footer .footer-box .time .time-right p {
     font-size: 15px;
 }
+
 footer .footer-box p {
     font-size: 20px;
 }
+
 footer .footer-box .i-lar-uchun {
     width: 220px;
     height: 55px;
@@ -601,7 +689,8 @@ footer .footer-box .i-lar-uchun {
     justify-content: space-between;
     align-items: center;
 }
-footer .footer-box .i-lar-uchun i{
+
+footer .footer-box .i-lar-uchun i {
     width: 50px;
     height: 50px;
     background-color: rgb(102, 95, 95);
@@ -611,6 +700,7 @@ footer .footer-box .i-lar-uchun i{
     justify-content: center;
     align-items: center;
 }
+
 footer .footer-k .footer-box1 {
     width: 250px;
     height: 250px;
@@ -618,9 +708,11 @@ footer .footer-k .footer-box1 {
     flex-direction: column;
     justify-content: space-between;
 }
+
 footer .footer-box1 b {
     font-size: 25px;
 }
+
 footer .footer-box1 .div1 {
     width: 250px;
     height: 200px;
@@ -630,6 +722,7 @@ footer .footer-box1 .div1 {
     color: rgb(207, 197, 197);
     font-size: 20px;
 }
+
 footer .footer-button {
     width: 1490px;
     height: 70px;
@@ -640,19 +733,24 @@ footer .footer-button {
     align-items: center;
     font-size: 20px;
 }
+
 body.dark {
     background-color: black;
 }
+
 body.dark header {
     background-color: rgba(0, 0, 0, 0.747);
     color: white;
 }
-body.dark header .header-orta a{
+
+body.dark header .header-orta a {
     color: white;
 }
+
 body.dark header .header-right i {
     color: white;
 }
-body.dark footer{
+
+body.dark footer {
     background-color: blue;
 }
