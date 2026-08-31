@@ -197,20 +197,24 @@ h1 {
 /* *main */
 .main {
     width: 1490px;
-    height: 700px;
+    height: 1000px;
     margin: auto;
     border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px;
+    padding-left: 90px;
 }
 .main .main-box {
     width: 280px;
-    height: 460px;
+    height: 450px;
     padding: 5px;
     background-color: #F4F2F0;
     border-radius: 12px;
 }
 .main .main-box img {
     width: 270px;
-    height: 300px;
+    height: 250px;
 }
 .main .main-box .main-foter {
     width: 200px;
