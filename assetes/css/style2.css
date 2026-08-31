@@ -187,6 +187,17 @@ header .header-right .yurak:hover {
     border-radius: 5px;
     font-size: 15px;
 } 
+/** h1 */
+h1 {
+    width: 450px;
+    height: 50px;
+    font-size: 40px;
+    margin: 50px auto;
+}
+
+
+
+
 body.dark {
     background-color: black;
 }
@@ -195,6 +206,9 @@ body.dark header {
     color: white;
 }
 body.dark header .header-orta a{
+    color: white;
+}
+body.dark h1 {
     color: white;
 }
 body.dark header .header-right i {
