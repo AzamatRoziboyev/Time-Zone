@@ -452,6 +452,7 @@ header .header-right .yurak:hover {
 .main3 .main3-box img {
     width: 270px;
     height: 300px;
+    cursor: pointer;
 }
 
 .main3 .main3-box .main3-foter {
@@ -472,11 +473,13 @@ header .header-right .yurak:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .main3 .main3-box .main3-foter p {
     font-size: 20px;
     font-weight: 300;
+    cursor: pointer;
 
 }
 
@@ -489,6 +492,7 @@ header .header-right .yurak:hover {
     border-radius: 5px;
     margin-top: 15px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 /* *==== main4 */
