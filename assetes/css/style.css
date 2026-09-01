@@ -737,6 +737,82 @@ footer .footer-button {
     align-items: center;
     font-size: 20px;
 }
+/** button */
+.main3-katta  {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main3-katta.active {
+    display: flex;
+}
+.main3-katta .main3-kichik {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+}
+.main3-katta .main3-kichik .h1 {
+    width: 500px;
+    height: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.main3-katta .main3-kichik .h1 .main3-close {
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+.main3-katta .main3-kichik .label1 {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.main3-katta .main3-kichik .label1 label {
+    font-size: 15px;
+}
+.main3-katta .main3-kichik .label1 input {
+    width: 300px;
+    height: 30px;
+    padding: 0px 10px;
+}
+.main3-katta .main3-kichik .button {
+    width: 500px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main3-katta .main3-kichik .button .button-buyurtma {
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
 
 body.dark {
     background-color: black;
