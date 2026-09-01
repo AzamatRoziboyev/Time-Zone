@@ -752,7 +752,7 @@ footer .footer-button {
     display: flex;
 }
 .main3-katta .main3-kichik {
-    width: 600px;
+    width: 500px;
     height: 450px;
     background-color: white;
     border-radius: 12px;
@@ -763,7 +763,7 @@ footer .footer-button {
     gap: 20px;
 }
 .main3-katta .main3-kichik .h1 {
-    width: 500px;
+    width: 400px;
     height: 25px;
     display: flex;
     justify-content: end;
@@ -778,7 +778,7 @@ footer .footer-button {
     cursor: pointer;
 }
 .main3-katta .main3-kichik .label1 {
-    width: 500px;
+    width: 400px;
     height: 60px;
     display: flex;
     flex-direction: column;
@@ -793,7 +793,7 @@ footer .footer-button {
     padding: 0px 10px;
 }
 .main3-katta .main3-kichik .button {
-    width: 500px;
+    width: 400px;
     height: 70px;
 
     display: flex;
