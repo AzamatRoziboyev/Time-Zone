@@ -744,7 +744,7 @@ footer .footer-button {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     inset: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -783,7 +783,6 @@ footer .footer-button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid black;
 }
 .main3-katta .main3-kichik .label1 label {
     font-size: 15px;
@@ -795,8 +794,8 @@ footer .footer-button {
 }
 .main3-katta .main3-kichik .button {
     width: 500px;
-    height: 60px;
-    border: 1px solid black;
+    height: 70px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -14,7 +14,7 @@ const mainClose = document.querySelector(".main-close")
 // * main3-katta
 const main3Katta = document.querySelector('.main3-katta')
 const main3Buyurtma = document.querySelector('.main3-buyurtma')
-const
+const main3Close = document.querySelector('.main3-close')
 
 serach.addEventListener("click", () => {
     serachKatta.classList.add("active")
@@ -46,4 +46,11 @@ mainBtn.addEventListener("click", () => {
 })
 mainClose.addEventListener("click", () => {
     mainKatolog.classList.remove("active")
+})
+// * main3-katta
+main3Buyurtma.addEventListener("click", () => {
+    main3Katta.classList.add("active")
+})
+main3Close.addEventListener("click", () => {
+    main3Katta.classList.remove("active")
 })
