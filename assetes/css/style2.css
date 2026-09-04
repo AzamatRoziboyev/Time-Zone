@@ -169,10 +169,11 @@ header .header-right .yurak:hover {
 .login-katta.active {
     display: flex;
 }
-
-/* .login-katta .login-kichik h1 {
-    border: 1px solid black;
-} */
+.login-katta .login-kichik h1 {
+    width: 250px;
+    height: 50px;
+    border: 1px solid ;
+}
 .login-katta .login-kichik {
     width: 300px;
     height: 320px;
@@ -217,7 +218,7 @@ header .header-right .yurak:hover {
 }
 
 /** h1 */
-h1 {
+.h1 {
     width: 450px;
     height: 50px;
     font-size: 40px;
