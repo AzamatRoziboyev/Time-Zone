@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    transition: 1s;
+    transition: 0.5s;
 
 }
 
@@ -237,7 +237,6 @@ header .header-right .yurak:hover {
     padding: 5px;
     background-color: #F4F2F0;
     border-radius: 12px;
-    margin: 25px;
     box-shadow: 0px 0px 15px gray;
 
 }
