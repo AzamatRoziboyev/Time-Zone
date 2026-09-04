@@ -224,7 +224,7 @@ header .header-right .yurak:hover {
 /** main */
 .main {
     width: 1490px;
-    height: 1000px;
+    height: 1050px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -238,8 +238,13 @@ header .header-right .yurak:hover {
     padding: 5px;
     background-color: #F4F2F0;
     border-radius: 12px;
+    margin: 25px;
+    box-shadow: 0px 0px 15px gray;
 }
-
+.main .main-box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .main .main-box img {
     width: 270px;
     height: 270px;
