@@ -240,7 +240,8 @@ header .header-right .yurak:hover {
     border-radius: 12px;
 }
 main .main-box:hover {
-    transform: scale(0.9);
+    transform: scale(1.9);
+    cursor: pointer;
 }
 
 .main .main-box img {
