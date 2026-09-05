@@ -47,10 +47,3 @@ mainBtn.addEventListener("click", () => {
 mainClose.addEventListener("click", () => {
     mainKatolog.classList.remove("active")
 })
-// * main3-katta
-main3Buyurtma.addEventListener("click", () => {
-    main3Katta.classList.add("active")
-})
-main3Close.addEventListener("click", () => {
-    main3Katta.classList.remove("active")
-})
