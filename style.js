@@ -11,10 +11,6 @@ const btn = document.getElementById('btn')
 const mainBtn = document.querySelector(".main-btn")
 const mainKatolog = document.querySelector(".main-katolog")
 const mainClose = document.querySelector(".main-close")
-// * main3-katta
-const main3Katta = document.querySelector('.main3-katta')
-const main3Buyurtma = document.querySelector('.main3-buyurtma')
-const main3Close = document.querySelector('.main3-close')
 
 serach.addEventListener("click", () => {
     serachKatta.classList.add("active")
