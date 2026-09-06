@@ -841,10 +841,6 @@ body.dark footer {
 ========================================= */
 
 @media (max-width: 768px) {
-    body {
-        width: 100%;
-        overflow: hidden;
-    }
      /** ================= HEADER ================= */
     header {
         width: 100%;
