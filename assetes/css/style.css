@@ -835,3 +835,598 @@ body.dark header .header-right i {
 body.dark footer {
     background-color: blue;
 }
+
+/* =========================================
+   📱 TELEFON VERSIYASI
+========================================= */
+
+@media (max-width: 768px) {
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* ================= HEADER ================= */
+
+    header {
+        width: 100%;
+        height: 70px;
+        padding: 10px 15px;
+    }
+
+    header .header-left {
+        width: auto;
+        height: 50px;
+        gap: 10px;
+    }
+
+    header .header-left img {
+        width: 35px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    header .header-orta {
+        display: none;
+    }
+
+    header .header-right {
+        width: auto;
+        height: 45px;
+        gap: 12px;
+    }
+
+    header .header-right button {
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+
+    header .header-right .btn {
+        font-size: 22px;
+    }
+
+
+    /* ================= SEARCH ================= */
+
+    .serach-katta {
+        padding: 15px;
+    }
+
+    .serach-katta .serach-kichik {
+        width: 100%;
+        max-width: 360px;
+        height: 350px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .serach-katta .serach-kichik .input {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .serach-katta .serach-kichik input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .serach-katta .serach-kichik .div {
+        width: 100%;
+    }
+
+    .serach-katta .serach-kichik .div1 {
+        width: 100%;
+        font-size: 17px;
+    }
+
+
+    /* ================= LOGIN ================= */
+
+    .login-katta {
+        justify-content: center;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .login-katta .login-kichik {
+        width: 100%;
+        max-width: 350px;
+        height: 320px;
+        margin: 25px 0 0 0;
+        padding: 20px;
+    }
+
+    .login-katta .login-kichik .lable1,
+    .login-katta .login-kichik .lable2,
+    .login-katta .login-kichik .lable3 {
+        width: 100%;
+    }
+
+    .login-katta .login-kichik .lable1 input,
+    .login-katta .login-kichik .lable2 input,
+    .login-katta .login-kichik .lable3 input {
+        width: 100%;
+    }
+
+    .login-katta .login-kichik .login-close {
+        width: 100%;
+    }
+
+
+    /* ================= MAIN / HERO ================= */
+
+    .main {
+        width: 100%;
+        height: 550px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .main-box {
+        width: 90%;
+        height: 350px;
+        margin: 60px 20px;
+    }
+
+    .main .main-box h1 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .main .main-box small {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .main .main-box .main-btn {
+        width: 160px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .main .main-box .main-foter {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .main .main-box .main-foter .foter1,
+    .main .main-box .main-foter .foter2,
+    .main .main-box .main-foter .foter3 {
+        width: auto;
+        min-width: 100px;
+        height: 40px;
+        gap: 8px;
+    }
+
+    .main .main-box .main-foter .foter1 i,
+    .main .main-box .main-foter .foter2 i,
+    .main .main-box .main-foter .foter3 i {
+        font-size: 20px;
+    }
+
+
+    /* ================= KATALOG ================= */
+
+    .main-katolog {
+        padding: 15px;
+    }
+
+    .main-katolog .main-kichik {
+        width: 100%;
+        max-width: 320px;
+        height: 270px;
+    }
+
+    .main-katolog .main-kichik .h1 {
+        width: 100%;
+    }
+
+
+    /* ================= MAIN1 ================= */
+
+    .main1 {
+        width: calc(100% - 30px);
+        height: auto;
+        min-height: 260px;
+        margin: 30px auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .main1 .main1-box {
+        width: 100%;
+        height: 65px;
+        border-right: none;
+        border-bottom: 1px solid gray;
+        gap: 15px;
+        padding: 5px;
+    }
+
+    .main1 .main1-box:last-child {
+        border-bottom: none;
+    }
+
+    .main1 .main1-box img {
+        width: 40px;
+        height: 55px;
+        object-fit: contain;
+    }
+
+    .main1 .main1-box .img1 {
+        width: 60px;
+        height: 45px;
+    }
+
+    .main1 .main1-box .erkaklar-uchun {
+        width: 100%;
+        height: 50px;
+    }
+
+    .main1 .main1-box .erkaklar-uchun p {
+        font-size: 17px;
+    }
+
+    .main1 .main1-box .erkaklar-uchun small {
+        font-size: 12px;
+    }
+
+
+    /* ================= MAIN2 ================= */
+
+    .main2 {
+        width: 100%;
+        height: 70px;
+        padding: 10px 15px;
+        margin: auto;
+    }
+
+    .main2 h3 {
+        font-size: 25px;
+    }
+
+    .main2 a {
+        font-size: 14px;
+    }
+
+
+    /* ================= MAIN3 PRODUCTS ================= */
+
+    .main3 {
+        width: 100%;
+        height: 360px;
+        margin: 20px auto;
+        padding: 10px 15px;
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 15px;
+    }
+
+    .main3 .main3-box {
+        flex: 0 0 210px;
+        width: 210px;
+        height: 340px;
+        padding: 5px;
+    }
+
+    .main3 .main3-box:hover {
+        transform: none;
+    }
+
+    .main3 .main3-box img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .main3 .main3-box .main3-foter {
+        width: 190px;
+        height: 75px;
+        margin-left: 5px;
+    }
+
+    .main3 .main3-box .main3-foter p {
+        font-size: 16px;
+    }
+
+    .main3 .main3-box .main3-foter span {
+        width: 45px;
+        height: 18px;
+        font-size: 10px;
+    }
+
+    .main3 .main3-box .main3-buyurtma {
+        width: 140px;
+        height: 30px;
+        margin: 10px 5px 0;
+        font-size: 12px;
+    }
+
+
+    /* ================= MAIN3 BUYURTMA MODAL ================= */
+
+    .main3-katta {
+        padding: 15px;
+    }
+
+    .main3-katta .main3-kichik {
+        width: 100%;
+        max-width: 360px;
+        height: 430px;
+        padding: 20px;
+    }
+
+    .main3-katta .main3-kichik .h1 {
+        width: 100%;
+    }
+
+    .main3-katta .main3-kichik .label1 {
+        width: 100%;
+    }
+
+    .main3-katta .main3-kichik .label1 input {
+        width: 100%;
+    }
+
+    .main3-katta .main3-kichik .button {
+        width: 100%;
+    }
+
+    .main3-katta .main3-kichik .button .button-buyurtma {
+        width: 100%;
+    }
+
+
+    /* ================= MAIN4 ================= */
+
+    .main4 {
+        width: calc(100% - 30px);
+        height: auto;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main4 .main4-box,
+    .main4 .main4-box1 {
+        width: 100%;
+        height: 250px;
+        padding: 25px;
+    }
+
+    .main4 .main4-box h4,
+    .main4 .main4-box1 h5 {
+        font-size: 28px;
+    }
+
+    .main4 .main4-box p,
+    .main4 .main4-box1 p {
+        font-size: 18px;
+    }
+
+    .main4 .main4-box .main4-btn,
+    .main4 .main4-box1 .main4-btn1 {
+        height: 35px;
+        font-size: 13px;
+    }
+
+
+    /* ================= MAIN5 ================= */
+
+    .main5 {
+        width: calc(100% - 30px);
+        height: auto;
+        min-height: 250px;
+        margin: 30px auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .main5 .main5-box {
+        width: 100%;
+        height: 60px;
+        gap: 15px;
+    }
+
+    .main5 .main5-box i {
+        font-size: 28px;
+        width: 40px;
+    }
+
+    .main5 .main5-box .main5-foter {
+        width: 100%;
+        height: 60px;
+    }
+
+    .main5 .main5-box .main5-foter p {
+        font-size: 18px;
+    }
+
+    .main5 .main5-box .main5-foter small {
+        font-size: 12px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    footer {
+        width: 100%;
+        height: auto;
+        min-height: 650px;
+        padding: 30px 20px 0;
+    }
+
+    footer .footer-k {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 15px;
+        align-items: start;
+    }
+
+    footer .footer-box,
+    footer .footer-k .footer-box1 {
+        width: 100%;
+        height: 230px;
+    }
+
+    footer .footer-box .time {
+        width: 100%;
+        height: 60px;
+        gap: 10px;
+    }
+
+    footer .footer-box .time img {
+        width: 35px;
+        height: 50px;
+    }
+
+    footer .footer-box .time .time-right {
+        width: 100%;
+        height: 60px;
+    }
+
+    footer .footer-box .time .time-right h6 {
+        font-size: 18px;
+    }
+
+    footer .footer-box .time .time-right p {
+        font-size: 11px;
+    }
+
+    footer .footer-box p {
+        font-size: 14px;
+    }
+
+    footer .footer-box .i-lar-uchun {
+        width: 100%;
+        height: 45px;
+    }
+
+    footer .footer-box .i-lar-uchun i {
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+    footer .footer-box1 b {
+        font-size: 18px;
+    }
+
+    footer .footer-box1 .div1 {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        gap: 8px;
+    }
+
+    footer .footer-button {
+        width: 100%;
+        height: 60px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+/* =========================================
+   📱 JUDA KICHIK TELEFONLAR
+========================================= */
+
+@media (max-width: 400px) {
+
+    header {
+        padding: 8px 10px;
+    }
+
+    header .header-right {
+        gap: 7px;
+    }
+
+    .main {
+        height: 500px;
+    }
+
+    .main-box {
+        margin: 50px 15px;
+    }
+
+    .main .main-box h1 {
+        font-size: 29px;
+    }
+
+    .main .main-box small {
+        font-size: 12px;
+    }
+
+    .main1 {
+        width: calc(100% - 20px);
+    }
+
+    .main2 h3 {
+        font-size: 21px;
+    }
+
+    .main2 a {
+        font-size: 12px;
+    }
+
+    .main3 {
+        height: 330px;
+    }
+
+    .main3 .main3-box {
+        flex-basis: 180px;
+        width: 180px;
+        height: 310px;
+    }
+
+    .main3 .main3-box img {
+        width: 170px;
+        height: 175px;
+    }
+
+    .main3 .main3-box .main3-foter {
+        width: 160px;
+    }
+
+    .main3 .main3-box .main3-foter p {
+        font-size: 14px;
+    }
+
+    .main4 .main4-box,
+    .main4 .main4-box1 {
+        height: 220px;
+        padding: 20px;
+    }
+
+    .main4 .main4-box h4,
+    .main4 .main4-box1 h5 {
+        font-size: 24px;
+    }
+
+    .main4 .main4-box p,
+    .main4 .main4-box1 p {
+        font-size: 15px;
+    }
+
+    footer .footer-k {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        min-height: 900px;
+    }
+}
