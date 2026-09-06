@@ -475,5 +475,12 @@ body.dark footer {
 
 /* & Telifon Versiya */
 @media (max-width: 375px) {
-    
+    header {
+        width: 373px;
+        height: 50px;
+
+    }
+    .header-orta {
+        display: none;
+    }
 }
