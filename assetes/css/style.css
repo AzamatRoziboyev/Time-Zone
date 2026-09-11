@@ -943,6 +943,8 @@ body.dark footer {
         height: 350px;
         margin: 60px 20px;
     }
+    .main .main-box h1 {
+        font-size: 35px;
+    }
     
-
 }
