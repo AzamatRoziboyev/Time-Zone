@@ -881,15 +881,15 @@ body.dark footer {
         height: 350px;
         padding: 20px;
         margin-top: 20px;
+        margin: auto;
+        margin-left: 300px;
     }
-    .serach-katta .serach-kichik input {
-        width: 100%;
+    .serach-katta .serach-kichik .input input {
+        width: 250px;
         height: 40px;
     }
     .serach-katta .serach-kichik .div {
         width: 100%;
     }
-    
-    
 
 }
