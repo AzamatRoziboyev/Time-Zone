@@ -961,6 +961,13 @@ body.dark footer {
         flex-wrap: wrap;
         gap: 10px;
     }
-    
+    .main .main-box .main-foter .foter1,
+    .main .main-box .main-foter .foter2,
+    .main .main-box .main-foter .foter3 {
+        width: auto;
+        max-width: 100px;
+        height: 40px;
+        gap: 8px;
+    }
     
 }
