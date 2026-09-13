@@ -1067,4 +1067,12 @@ body.dark footer {
         font-size: 12px;
     }
     /* *============= main4 =========== */
+    .main4 {
+        width: 100%;
+        height: auto;
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 }
