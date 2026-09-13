@@ -1075,4 +1075,18 @@ body.dark footer {
         flex-direction: column;
         gap: 30px;
     }
+    .main4 .main4-box,
+    .main4 .main4-box1 {
+        width: 100%;
+        height: 250px;
+        padding: 25px;
+    }
+    .main4 .main4-box h4,
+    .main4 .main4-box1 h5 {
+        font-size: 28px;
+    }
+    .main4 .main4-box p,
+    .main4 .main4-box1 p {
+        font-size: 18px;
+    }
 }
