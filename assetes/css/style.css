@@ -825,7 +825,31 @@ footer .footer-button {
     border-radius: 5px;
 }
 
+body.dark {
+    background-color: black;
+}
 
+body.dark header {
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+
+body.dark header .header-orta a {
+    color: white;
+}
+body.dark .main2 {
+    color: white;
+}
+body.dark .main2 a {
+    color: white;
+}
+body.dark header .header-right i {
+    color: white;
+}
+
+body.dark footer {
+    background-color: blue;
+}
 
 
 
@@ -1329,23 +1353,4 @@ footer .footer-button {
     }
 
 }
-body.dark {
-    background-color: black;
-}
 
-body.dark header {
-    background-color: rgba(0, 0, 0, 0.747);
-    color: white;
-}
-
-body.dark header .header-orta a {
-    color: white;
-}
-
-body.dark header .header-right i {
-    color: white;
-}
-
-body.dark footer {
-    background-color: blue;
-}
