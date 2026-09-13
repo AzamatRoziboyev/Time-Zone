@@ -975,4 +975,15 @@ body.dark footer {
     .main-katolog .main-kichik .h1 {
         width: 100%;
     }
+    /** ================= MAIN1 ================= */
+    .main1 {
+        width: 100%;
+        height: auto;
+        min-height: 260px;
+        margin: 30px auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 }
