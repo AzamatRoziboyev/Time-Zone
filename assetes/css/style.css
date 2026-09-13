@@ -961,18 +961,18 @@ body.dark footer {
         flex-wrap: wrap;
         gap: 10px;
     }
-    /* .main .main-box .main-foter .foter1,
-    .main .main-box .main-foter .foter2,
-    .main .main-box .main-foter .foter3 {
-        width: auto;
-        max-width: 100px;
-        height: 40px;
-        gap: 8px;
+    /**================= KATALOG ================= */ */
+        .main-katolog {
+        padding: 15px;
     }
-    .main .main-box .main-foter .foter1 i,
-    .main .main-box .main-foter .foter2 i,
-    .main .main-box .main-foter .foter3 i {
-        font-size: 20px;
-    } */
-    
+
+    .main-katolog .main-kichik {
+        width: 100%;
+        max-width: 320px;
+        height: 270px;
+    }
+
+    .main-katolog .main-kichik .h1 {
+        width: 100%;
+    }
 }
