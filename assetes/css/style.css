@@ -946,5 +946,21 @@ body.dark footer {
     .main .main-box h1 {
         font-size: 35px;
     }
+    .main .main-box small {
+        font-size: 13px;
+    }
+    .main .main-box .main-btn {
+        width: 160px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .main .main-box .main-foter {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
     
 }
