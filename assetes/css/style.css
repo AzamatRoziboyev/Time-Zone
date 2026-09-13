@@ -1008,7 +1008,7 @@ body.dark footer {
 
     /** ================= MAIN1 ================= */
     .main1 {
-        width: 100%;
+        width: 90%;
         height: auto;
         min-height: 260px;
         margin: 30px auto;
@@ -1069,7 +1069,7 @@ body.dark footer {
 
     /** ================= MAIN3  ================= */
     .main3 {
-        width: 100%;
+        width: 90%;
         height: 360px;
         margin: 20px auto;
         padding: 10px 15px;
@@ -1114,7 +1114,7 @@ body.dark footer {
 
     /* *============= main4 =========== */
     .main4 {
-        width: 100%;
+        width: 90%;
         height: auto;
         margin: 40px auto;
         display: flex;
@@ -1147,7 +1147,7 @@ body.dark footer {
 
     /* *============ main5 ========== */
     .main5 {
-        width: 100%;
+        width: 90%;
         height: auto;
         min-height: 250px;
         margin: 30px auto;
