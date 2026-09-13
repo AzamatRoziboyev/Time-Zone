@@ -994,4 +994,25 @@ body.dark footer {
         gap: 5px;
         padding: 5px;
     }
+
+    .main1 .main1-box img {
+        width: 40px;
+        height: 55px;
+        object-fit: contain;
+    }
+
+    .main1 .main1-box .img1 {
+        width: 60px;
+        height: 45px;
+    }
+     .main1 .main1-box .erkaklar-uchun {
+        width: 100%;
+        height: 50px;
+    }
+    .main1 .main1-box .erkaklar-uchun p {
+        font-size: 17px;
+    }
+    .main1 .main1-box .erkaklar-uchun small {
+        font-size: 12px;
+    } 
 }
