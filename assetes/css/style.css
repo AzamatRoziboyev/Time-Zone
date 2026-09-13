@@ -1039,5 +1039,31 @@ body.dark footer {
         overflow-y: auto;
         gap: 15px;
     }
-    
+    .main3 .main3-box {
+        width: 210px;
+        height: 340px;
+        padding: 5px;
+    }
+    .main3 .main3-box:hover {
+        transform: none;
+    }
+    .main3 .main3-box img {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+    }
+    .main3 .main3-box .main3-foter {
+        width: 190px;
+        height: 75px;
+        margin-left: 5px;
+    }
+    .main3 .main3-box .main3-foter p {
+        font-size: 16px;
+    }
+    .main3 .main3-box .main3-buyurtma {
+        width: 140px;
+        height: 30px;
+        margin: 10px 5px 0;
+        font-size: 12px;
+    }
 }
