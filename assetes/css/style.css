@@ -961,7 +961,7 @@ body.dark footer {
         flex-wrap: wrap;
         gap: 10px;
     }
-    .main .main-box .main-foter .foter1,
+    /* .main .main-box .main-foter .foter1,
     .main .main-box .main-foter .foter2,
     .main .main-box .main-foter .foter3 {
         width: auto;
@@ -969,5 +969,10 @@ body.dark footer {
         height: 40px;
         gap: 8px;
     }
+    .main .main-box .main-foter .foter1 i,
+    .main .main-box .main-foter .foter2 i,
+    .main .main-box .main-foter .foter3 i {
+        font-size: 20px;
+    } */
     
 }
