@@ -182,7 +182,9 @@ header .header-right .yurak:hover {
     margin-right: 150px;
     margin-top: 60px;
 }
-
+.login-katta .login-kichik h1 {
+    color: black;
+}
 .login-katta .login-kichik .lable1,
 .login-katta .login-kichik .lable2,
 .login-katta .login-kichik .lable3 {
@@ -474,4 +476,240 @@ body.dark header .header-right i {
 
 body.dark footer {
     background-color: blue;
+}
+
+
+@media(max-width: 768px) {
+       /** ================= HEADER ================= */
+    header {
+        width: 100%;
+        height: 70px;
+        padding: 10px 15px;
+
+    }
+
+    header .header-left {
+        width: auto;
+        height: 50px;
+        gap: 10px;
+    }
+
+    header .header-left img {
+        width: 30;
+        height: 60px;
+    }
+
+    header .header-orta {
+        display: none;
+    }
+
+    header .header-right {
+        width: auto;
+        height: 70px;
+        display: flex;
+        gap: 10px;
+
+    }
+
+    /**=============serach======== */
+    .serach-katta {
+        padding: 15px;
+    }
+
+    .serach-katta .serach-kichik {
+        width: 100%;
+        max-width: 360px;
+        height: 350px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .serach-katta .serach-kichik .input {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .serach-katta .serach-kichik input {
+        width: 100%;
+        height: 40px;
+    }
+
+    .serach-katta .serach-kichik .div {
+        width: 100%;
+    }
+
+    .serach-katta .serach-kichik .div1 {
+        width: 100%;
+        font-size: 17px;
+    }
+
+
+    /* ================= LOGIN ================= */
+
+    .login-katta {
+        justify-content: center;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .login-katta .login-kichik {
+        width: 100%;
+        max-width: 350px;
+        height: 320px;
+        margin: 25px 0 0 0;
+        padding: 20px;
+    }
+
+    .login-katta .login-kichik .lable1,
+    .login-katta .login-kichik .lable2,
+    .login-katta .login-kichik .lable3 {
+        width: 100%;
+    }
+
+    .login-katta .login-kichik .lable1 input,
+    .login-katta .login-kichik .lable2 input,
+    .login-katta .login-kichik .lable3 input {
+        width: 100%;
+    }
+
+    .login-katta .login-kichik .login-close {
+        width: 100%;
+    }
+    .h1 {
+        width: 400px;
+        height: 50px;
+        margin: 50px auto;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    /* *========== main =========== */
+    .main {
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+        padding: 0px;
+    }
+    /* *=========== main1 ======= */ 
+   .main1 {
+        width: 90%;
+        height: auto;
+        min-height: 250px;
+        margin: 30px auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main1 .main1-box {
+        width: 100%;
+        height: 60px;
+        gap: 15px;
+    }
+
+    .main1 .main1-box i {
+        font-size: 28px;
+        width: 40px;
+    }
+
+    .main1 .main1-box .main1-foter {
+        width: 100%;
+        height: 60px;
+    }
+
+    .main1 .main1-box .main1-foter p {
+        font-size: 18px;
+    }
+
+    .main1 .main1-box .main1-foter small {
+        font-size: 12px
+    }
+    /* *========= footer ========== */
+     footer {
+        width: 100%;
+        height: auto;
+        min-height: 650px;
+        padding: 30px 20px 0;
+    }
+
+    footer .footer-k {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 15px;
+        align-items: start;
+    }
+
+    footer .footer-box,
+    footer .footer-k .footer-box1 {
+        width: 100%;
+        height: 230px;
+    }
+
+    footer .footer-box .time {
+        width: 100%;
+        height: 60px;
+    }
+
+    footer .footer-box .time img {
+        width: 35px;
+        height: 50px;
+
+    }
+
+    footer .footer-box .time .time-right {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    footer .footer-box .time .time-right h6 {
+        font-size: 18px;
+    }
+
+    footer .footer-box .time .time-right p {
+        font-size: 11px;
+    }
+
+    footer .footer-box p {
+        font-size: 14px;
+    }
+
+    footer .footer-box .i-lar-uchun {
+        width: 100%;
+        height: 45px;
+
+    }
+
+    footer .footer-box .i-lar-uchun i {
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+    footer .footer-box1 b {
+        font-size: 18px;
+    }
+
+    footer .footer-box1 .div1 {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    footer .footer-button {
+        width: 100%;
+        height: 60px;
+        font-size: 12px;
+        text-align: center;
+    
+
+    }
 }

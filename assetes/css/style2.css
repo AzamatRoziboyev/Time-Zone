@@ -181,6 +181,10 @@ header .header-right .yurak:hover {
     margin-right: 150px;
     margin-top: 60px;
 }
+.login-katta .login-kichik h1 {
+    color: black;
+    
+}
 
 .login-katta .login-kichik .lable1,
 .login-katta .login-kichik .lable2,
@@ -449,7 +453,7 @@ footer .footer-button {
 
 
 body.dark {
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgb(0, 0, 0);
 }
 
 body.dark header {
@@ -573,7 +577,6 @@ body.dark footer {
     .h1 {
         width: 400px;
         height: 50px;
-        border: 1px solid ;
         margin: 50px auto;
         font-size: 30px;
         display: flex;
@@ -589,7 +592,6 @@ body.dark footer {
         flex-direction: column;
         gap: 35px;
         align-items: center;
-        border: 1px solid black;
         padding: 0px;
     }
     /* *=========== main1 ======= */ 
