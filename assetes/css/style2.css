@@ -586,7 +586,120 @@ body.dark footer {
         border: 1px solid black;
     }
     /* *=========== main1 ======= */ 
-    .main1 {
-        width: ;
+   .main1 {
+        width: 90%;
+        height: auto;
+        min-height: 250px;
+        margin: 30px auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main1 .main1-box {
+        width: 100%;
+        height: 60px;
+        gap: 15px;
+    }
+
+    .main1 .main1-box i {
+        font-size: 28px;
+        width: 40px;
+    }
+
+    .main1 .main1-box .main1-foter {
+        width: 100%;
+        height: 60px;
+    }
+
+    .main1 .main1-box .main1-foter p {
+        font-size: 18px;
+    }
+
+    .main1 .main1-box .main1-foter small {
+        font-size: 12px
+    }
+    /* *========= footer ========== */
+     footer {
+        width: 100%;
+        height: auto;
+        min-height: 650px;
+        padding: 30px 20px 0;
+    }
+
+    footer .footer-k {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 15px;
+        align-items: start;
+    }
+
+    footer .footer-box,
+    footer .footer-k .footer-box1 {
+        width: 100%;
+        height: 230px;
+    }
+
+    footer .footer-box .time {
+        width: 100%;
+        height: 60px;
+    }
+
+    footer .footer-box .time img {
+        width: 35px;
+        height: 50px;
+
+    }
+
+    footer .footer-box .time .time-right {
+        width: 100%;
+        height: 60px;
+
+    }
+
+    footer .footer-box .time .time-right h6 {
+        font-size: 18px;
+    }
+
+    footer .footer-box .time .time-right p {
+        font-size: 11px;
+    }
+
+    footer .footer-box p {
+        font-size: 14px;
+    }
+
+    footer .footer-box .i-lar-uchun {
+        width: 100%;
+        height: 45px;
+
+    }
+
+    footer .footer-box .i-lar-uchun i {
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+    }
+
+    footer .footer-box1 b {
+        font-size: 18px;
+    }
+
+    footer .footer-box1 .div1 {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    footer .footer-button {
+        width: 100%;
+        height: 60px;
+        font-size: 12px;
+        text-align: center;
+    
+
     }
 }
