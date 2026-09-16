@@ -836,12 +836,15 @@ body.dark header {
 body.dark header .header-orta a {
     color: white;
 }
+
 body.dark .main2 {
     color: white;
 }
+
 body.dark .main2 a {
     color: white;
 }
+
 body.dark header .header-right i {
     color: white;
 }
@@ -1352,4 +1355,3 @@ body.dark footer {
     }
 
 }
-
