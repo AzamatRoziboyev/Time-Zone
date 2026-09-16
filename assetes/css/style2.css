@@ -570,5 +570,11 @@ body.dark footer {
     .login-katta .login-kichik .login-close {
         width: 100%;
     }
-
+    .h1 {
+        width: 400px;
+        height: 50px;
+        border: 1px solid ;
+        margin: 50px auto;
+    }
+    
 }
