@@ -575,6 +575,11 @@ body.dark footer {
         height: 50px;
         border: 1px solid ;
         margin: 50px auto;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     /* *========== main =========== */
     .main {
@@ -583,7 +588,9 @@ body.dark footer {
         display: flex;
         flex-direction: column;
         gap: 35px;
+        align-items: center;
         border: 1px solid black;
+        padding: 0px;
     }
     /* *=========== main1 ======= */ 
    .main1 {
