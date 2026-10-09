@@ -39,7 +39,7 @@ git clone "https://github.com/AzamatRoziboyev/Time-Zone.git"
 
 2. Open project folder:
 
-cd  
+cd  Time-Zone
 
 3. Run:
 
